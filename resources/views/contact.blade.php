@@ -17,7 +17,8 @@
         </ul>
     </header>
 
-    <h1>Mi chiamo {{ $name }} {{ $lastname }}</h1>
+    <h2>Questo è il mio numero: {{ $telephone_number }} </h2>
+    <h2>E questo è il mio indirizzo: {{ $address }} </h2>
 
 </body>
 

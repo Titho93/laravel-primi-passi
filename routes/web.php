@@ -14,7 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $name = 'Tms';
-    $lastname = 'Brt';
+    $name = 'Anakin';
+    $lastname = 'Skywalker';
     return view('home', compact('name', 'lastname'));
+});
+
+Route::get('/contact', function () {
+    $telephone_number = '0000505050000';
+    $address = 'via la morte nera 2';
+    return view('contact', compact('telephone_number', 'address'));
 });
